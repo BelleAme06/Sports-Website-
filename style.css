@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+.menu{
+    height: 3pc;
+    border: 2px solid black;
+    background-color: rgb(255, 136, 93);
+}
+.logo{
+    display: flex;
+    height: 6pc;
+    border: 2px solid black;
+    font-size: 25px;
+    font-family: castellar;
+    background-color: black;
+}
+.logo img{
+    border: 2px solid black;
+    margin-right: auto;
+    height: 100%;
+}
+.name{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 41%;
+    margin-top: 17px;
+    color: rgb(255, 136, 93);
+}
+ul{
+    display: flex;
+}
+li{
+    font-family: castellar;
+    font-size: 25px;
+    list-style: none;
+    margin-top: 0.8%;
+}
+li a{
+    margin-right: 4.9pc;
+    margin-left: 7pc;
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    text-decoration: underline;
+}
+.header{
+    height: 82%;
+    border: 2px solid black;
+    background-image: url(wlc.jpg);
+}
+.wlc{
+    background-color:black ;
+    margin-top: 17%;
+    height: 25%;
+    width: 39%; 
+    margin-left: 33%;
+    color: rgb(255, 136, 93);
+    font-family: castellar;
+    font-size: 50px;
+    text-align: center;
+}
+.wlc2{
+    padding: 2.6pc;
+}
+.trending{
+    height: 90vh;
+    border: 2px solid black;
+}
+.tag{
+    font-family: castellar;
+    font-weight: bolder;
+    padding: 2pc;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.product{
+    height: 25pc;
+    /* border: 2px solid black; */
+    display: flex;
+    background-color: rgb(255, 136, 93);
+}
+.product img{
+    height: 25pc;
+    margin-left: 7.3pc;
+    border: 2px solid black;
+}
+.details{
+    display: flex;
+    font-size: 20px;
+    font-family: castellar;
+    /* border: 2px solid black; */
+    text-decoration: none;
+}
+.s3{
+    border: 2px solid coral;
+    text-decoration: none;
+    margin-left: 5.1pc;
+    color: black;
+}
+.details :hover{
+    text-decoration: underline;
+}
+.s1{
+    border: 2px solid coral;
+    margin-left: 6.7pc;
+    color: black;
+}
+.s2{
+    border: 2px solid coral;
+    margin-left: 8pc;
+    color: black;
+}
+.more{
+    font-family: castellar;
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 2pc;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5pc;
+    width: 2pc;
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+}
+.more a{
+    text-decoration: none;
+    color: coral;
+}
+.more :hover{
+    text-decoration: underline;
+}
+.timeline{
+    /* border: 2px solid black; */
+    height: 100vh;
+}
+.timeline ul{
+    display: grid;
+    text-align: center;
+}
+.timeline ul li{
+    text-decoration: none;
+    border: 2px solid black;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10pc;
+    text-align: center; 
+    margin-top: 5%;   
+    
+}
+.timeline ul :hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+.time{
+    border:2px solid black;  
+    font-size: 25px;
+    font-weight: bold;
+    color: coral;
+    background-color: black;
+    border-radius: 5px;  
+}
+.info{
+    font-family: castellar;
+    text-align: center;
+    color: coral;
+}
